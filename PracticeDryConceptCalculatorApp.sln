@@ -5,6 +5,10 @@ VisualStudioVersion = 17.0.31919.166
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormCalculatorUI", "WinFormCalculatorUI\WinFormCalculatorUI.csproj", "{FE252A5C-679B-4FD5-8E0E-82E2E287A48F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFCalculatorUI", "WPFCalculatorUI\WPFCalculatorUI.csproj", "{1DC2ECA0-EA6C-46BE-A673-472FB174AC88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorLibrary", "CalculatorLibrary\CalculatorLibrary.csproj", "{6175A7C6-E0AF-45E7-92F0-79565665CAFA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{FE252A5C-679B-4FD5-8E0E-82E2E287A48F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FE252A5C-679B-4FD5-8E0E-82E2E287A48F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FE252A5C-679B-4FD5-8E0E-82E2E287A48F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DC2ECA0-EA6C-46BE-A673-472FB174AC88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DC2ECA0-EA6C-46BE-A673-472FB174AC88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DC2ECA0-EA6C-46BE-A673-472FB174AC88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DC2ECA0-EA6C-46BE-A673-472FB174AC88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6175A7C6-E0AF-45E7-92F0-79565665CAFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6175A7C6-E0AF-45E7-92F0-79565665CAFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6175A7C6-E0AF-45E7-92F0-79565665CAFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6175A7C6-E0AF-45E7-92F0-79565665CAFA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

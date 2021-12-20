@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using CalculatorLibrary;
 
 namespace WinFormCalculatorUI
 {
@@ -19,7 +20,7 @@ namespace WinFormCalculatorUI
 
         private void addNumbersButton_Click(object sender, EventArgs e)
         {
-            var result = firstNumberNumericUpDown.Value + secondNumberNumericUpDown.Value;
+            var result = CalculatorFunctionality.AddTwoNumbers(Convert.ToInt32(firstNumberNumericUpDown.Value), Convert.ToInt32(secondNumberNumericUpDown.Value));
             resultTextBox.Text = result.ToString();
         }
     }
