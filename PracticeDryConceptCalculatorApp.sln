@@ -3,7 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31919.166
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormCalculatorUI", "WinFormCalculatorUI\WinFormCalculatorUI.csproj", "{FE252A5C-679B-4FD5-8E0E-82E2E287A48F}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE252A5C-679B-4FD5-8E0E-82E2E287A48F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE252A5C-679B-4FD5-8E0E-82E2E287A48F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE252A5C-679B-4FD5-8E0E-82E2E287A48F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE252A5C-679B-4FD5-8E0E-82E2E287A48F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
