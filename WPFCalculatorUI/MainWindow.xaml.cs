@@ -1,5 +1,4 @@
 ﻿using System.Windows;
-using System.Text.RegularExpressions;
 using System.Windows.Input;
 using CalculatorLibrary;
 using System;
@@ -25,7 +24,7 @@ namespace WPFCalculatorUI
 
         private new void PreviewTextInput(object sender, TextCompositionEventArgs e)
         {
-            e.Handled = CalculatorFunctionality.isValidInteger(((TextBox)sender).Text + e.Text);
+            e.Handled = !CalculatorFunctionality.isValidIntegerOrNegativeSign(((TextBox)sender).Text + e.Text);
         }
     }
 }

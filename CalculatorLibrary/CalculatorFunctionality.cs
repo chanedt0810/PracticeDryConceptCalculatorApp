@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Text.RegularExpressions;
-using System.Threading.Tasks;
+﻿using System.Text.RegularExpressions;
 
 namespace CalculatorLibrary
 {
@@ -14,10 +9,10 @@ namespace CalculatorLibrary
             return firstNumber + secondNumber;
         }
 
-        public static bool isValidInteger(string value)
+        public static bool isValidIntegerOrNegativeSign(string value)
         {
             Regex regex = new Regex("^[0-9]+$|^-[0-9]+$|^-?$");
-            return !regex.IsMatch(value);
+            return regex.IsMatch(value);
         }
     }
 }
